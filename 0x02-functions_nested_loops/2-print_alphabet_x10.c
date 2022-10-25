@@ -4,14 +4,11 @@
 */
 void print_alphabet_x10(void)
 {
-int letter, co;
-co = 0;
-while (co < 10)
+int count = 0;	
+char letter;
+while (count++ <=9)
 {
 for (letter = 'a'; letter <= 'z'; letter++)
-{
 _putchar(letter);
-}
-co++;
 _putchar('\n');
 }
