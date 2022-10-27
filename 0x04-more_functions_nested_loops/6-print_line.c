@@ -1,23 +1,18 @@
 #include "main.h"
 
 /**
- *more_numbers - nmbr fct
+ *print_line - printing lines
+ *@n: number of times
  *
- *Return: no return
-*/
+ *Return: void
+ */
 
-void more_numbers(void)
+void print_line(int n)
 {
-
-int i, j;
-for (i = 1; i <= 10; i++)
+int i;
+for (i = 0; i < n; i++)
 {
-for (j = 0; j < 15; j++)
-{
-if (j >= 10)
-_putchar('1');
-_putchar(j % 10 + '0');
+_putchar('_');
 }
 _putchar('\n');
-}
 }
