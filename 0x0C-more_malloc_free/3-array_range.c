@@ -16,7 +16,7 @@ count = 0;
 if (min > max)
 return (NULL);
 t = (max - min) + 1;
-array = malloc(t * sizeof(int));
+array = malloc(t *sizeof(int));
 if (array != NULL)
 {
 for (i = min; i <= max; i++)
